@@ -1,0 +1,28 @@
+body{
+    background-color: #e5e5e5 !important;
+}
+#div-actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;  
+}
+
+#div-actions svg {
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+#div-actions svg:hover {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+#th-actions{
+    text-align: center;
+}
+
+@media (max-width: 800px){
+    #div-actions svg + svg{
+        
+    margin-left: 10px;       
+    }
+}
